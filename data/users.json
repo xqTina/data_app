@@ -1,0 +1,10 @@
+[
+  {
+    "id": 1,
+    "username": "johnsmith",
+    "password": "123456",
+    "firstName": "John",
+    "lastName": "Smith",
+    "emailAddress": "johnsmith@geospatial.com"
+  }
+]
