@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GEOSPATIAL</title>
+    <link rel="shortcut icon" href="./imgs/logo.svg">
+    <link rel="stylesheet" href="./css/dashboard.css">
+    <link id="changeView" rel="stylesheet" href="./css/dashboardListView.css">
+    <script defer src="./js/menuBar.js"></script>
+    <script defer src="./js/dashboard.js"></script>
+</head>
+
+<body>
+    <div class="root">
+        <div class="menu_bar">
+            <ul>
+                <li data-value="dashboard" style="background-color:#000">
+                    <button>
+                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10 6V0H18V6H10ZM0 10V0H8V10H0ZM10 18V8H18V18H10ZM0 18V12H8V18H0Z" fill="#fff" />
+                        </svg>
+                    </button>
+                </li>
+                <li data-value="settings">
+                    <button>
+                        <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M8.25001 20L7.85001 16.8C7.63335 16.7167 7.42935 16.6167 7.23801 16.5C7.04601 16.3833 6.85835 16.2583 6.67501 16.125L3.70001 17.375L0.950012 12.625L3.52501 10.675C3.50835 10.5583 3.50001 10.4457 3.50001 10.337V9.662C3.50001 9.554 3.50835 9.44167 3.52501 9.325L0.950012 7.375L3.70001 2.625L6.67501 3.875C6.85835 3.74167 7.05001 3.61667 7.25001 3.5C7.45001 3.38333 7.65001 3.28333 7.85001 3.2L8.25001 0H13.75L14.15 3.2C14.3667 3.28333 14.571 3.38333 14.763 3.5C14.9543 3.61667 15.1417 3.74167 15.325 3.875L18.3 2.625L21.05 7.375L18.475 9.325C18.4917 9.44167 18.5 9.554 18.5 9.662V10.337C18.5 10.4457 18.4833 10.5583 18.45 10.675L21.025 12.625L18.275 17.375L15.325 16.125C15.1417 16.2583 14.95 16.3833 14.75 16.5C14.55 16.6167 14.35 16.7167 14.15 16.8L13.75 20H8.25001ZM11.05 13.5C12.0167 13.5 12.8417 13.1583 13.525 12.475C14.2083 11.7917 14.55 10.9667 14.55 10C14.55 9.03333 14.2083 8.20833 13.525 7.525C12.8417 6.84167 12.0167 6.5 11.05 6.5C10.0667 6.5 9.23735 6.84167 8.56201 7.525C7.88735 8.20833 7.55001 9.03333 7.55001 10C7.55001 10.9667 7.88735 11.7917 8.56201 12.475C9.23735 13.1583 10.0667 13.5 11.05 13.5Z"
+                                fill="#b5b5b5"/>
+                        </svg>
+                    </button>
+                </li>
+                <li data-value="login">
+                    <button>
+                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M2 18C1.45 18 0.979 17.8043 0.587 17.413C0.195667 17.021 0 16.55 0 16V2C0 1.45 0.195667 0.979 0.587 0.587C0.979 0.195667 1.45 0 2 0H9V2H2V16H9V18H2ZM13 14L11.625 12.55L14.175 10H6V8H14.175L11.625 5.45L13 4L18 9L13 14Z"
+                                fill="#b5b5b5"/>
+                        </svg>
+                    </button>
+                </li>
+            </ul>
+        </div>
+        <div class="content">
+            <div class="panel_projects" id="panelPro">
+                <div class="title">
+                    <h3>My Projects</h3>
+                    <div class="right" id="viewArr">
+                        <div id="listView" class="white_bg" onclick="choiceView(this)"><svg width="14" height="10"
+                                viewBox="0 0 14 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M0 2.667V0H3V2.667H0ZM4 2.667V0H14V2.667H4ZM4 6.333V3.667H14V6.333H4ZM4 10V7.333H14V10H4ZM0 10V7.333H3V10H0ZM0 6.333V3.667H3V6.333H0Z"
+                                    fill="currentColor" />
+                            </svg>
+                        </div>
+                        <div id="iconView" onclick="choiceView(this)"><svg width="14" height="14" viewBox="0 0 14 14"
+                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0 6V0H6V6H0ZM0 14V8H6V14H0ZM8 6V0H14V6H8ZM8 14V8H14V14H8Z"
+                                    fill="currentColor" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="search_sort">
+                    <div class="search">
+                        <input type="text" placeholder="Search by project name" id="search">
+                        <img id="searchBtn" src="./icons/search_icon.svg" alt="">
+                    </div>
+                    <div class="sortBy">
+                        <span>Sort By:</span>
+                        <span id="sortBtn">
+                            <button type="button">Newest</button>
+                            <img src="./icons/tangle.svg" alt="">
+                        </span>
+                    </div>
+                    <div class="controlSort" style="visibility: hidden;">
+                        <button type="button" onclick="sortByNewest_Oldest(this)">Newest
+                            <svg width="13" height="11" viewBox="0 0 13 11" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 5.07104L4.53553 8.60658L11.6066 1.53551" stroke="currentColor"
+                                    stroke-width="2.5"></path>
+                            </svg>
+                        </button>
+                        <button type="button" onclick="sortByNewest_Oldest(this)">Oldest
+                            <svg width="13" height="11" viewBox="0 0 13 11" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 5.07104L4.53553 8.60658L11.6066 1.53551" stroke="currentColor"
+                                    stroke-width="2.5"></path>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <!-- <hr> -->
+                <div class="projects">
+                    <section onclick="readDataforPannel()">
+                        <img class="thumbnail"  src="./imgs/detailed_map_placeholder.png"
+                            alt="">
+                        <div class="desc">
+                            <p>Old Trafford</p>
+                            <p class="createdData">Date created:<span id="date">Otc 4,2022 08:53:54 pm</span></p>
+                        </div>
+                        <div class="controlRenameDel">
+                            <button id="renameBtn" onclick="renameFn()">
+                                <svg width="13" height="13" viewBox="0 0 13 13" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M10.8667 4.94992L8.03333 2.14992L8.96667 1.21659C9.22222 0.96103 9.53622 0.833252 9.90867 0.833252C10.2807 0.833252 10.5944 0.96103 10.85 1.21659L11.7833 2.14992C12.0389 2.40547 12.1722 2.71392 12.1833 3.07525C12.1944 3.43614 12.0722 3.74436 11.8167 3.99992L10.8667 4.94992ZM9.9 5.93325L2.83333 12.9999H0V10.1666L7.06667 3.09992L9.9 5.93325Z"
+                                        fill="currentColor" />
+                                </svg>
+                                Rename project</button>
+                            <button id="deleteBtn" onclick="deleteFn()">
+                                <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M2.6665 12C2.29984 12 1.98606 11.8696 1.72517 11.6087C1.46384 11.3473 1.33317 11.0333 1.33317 10.6667V2H0.666504V0.666667H3.99984V0H7.99984V0.666667H11.3332V2H10.6665V10.6667C10.6665 11.0333 10.5361 11.3473 10.2752 11.6087C10.0138 11.8696 9.69984 12 9.33317 12H2.6665ZM3.99984 9.33333H5.33317V3.33333H3.99984V9.33333ZM6.6665 9.33333H7.99984V3.33333H6.6665V9.33333Z"
+                                        fill="red" />
+                                </svg>
+                                Delete project</button>
+                        </div>
+                        <!-- <img class="external_link_icon" src="./icons/external_link_icon.svg" alt=""> -->
+                        <div id="option">
+                            <img src="./icons/options_icon.svg" alt="" >
+                        </div>
+                    </section>
+                    <hr>
+                </div>
+            </div>
+            <div class="pannel_right">
+                <div class="pannel_up">
+                    <div class="detail_content" id="detailContent">
+                        <div class="details">
+                            <div class="title">
+                                <span id="proDetailsLink"><a href='../detail.html'>Project details</a></span>
+                                <img src="./icons/external_link_icon.svg" alt="">
+                            </div>
+                            <h4>Upper Manhattan</h4>
+                            <div class="device_event">
+                                <div class="devices">
+                                    <img src="./icons/sm_devices_outline_icon.svg" alt="">
+                                    <span><strong>256</strong> Devices</span>
+                                </div>
+                                <div class="event">
+                                    <img src="./icons/signal_cellular_alt_icon.svg" alt="">
+                                    <span><strong>256</strong> Events</span>
+                                </div>
+                            </div>
+                            <div class="line">
+                                <span>Last Updated on:</span>
+                                <span>Otc 6,2022 10:24:18 pm</span>
+                            </div>
+                            <div class="line">
+                                <span>Date created:</span>
+                                <span>Otc 6,2022 10:24:18 pm</span>
+                            </div>
+                            <div class="line">
+                                <span>Description:</span>
+                                <p>This is a new project lorem ipsum dolor amet conseqtetur adispicing elit magna.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="search_quota">
+                        <h4>Search Quota</h4>
+                        <div class="charAt">
+                            <svg width="184" height="184" viewBox="-92 -92 184 184">
+                                <circle cx="0" cy="0" r="76" stroke="#EEF0F2" stroke-width="24" fill="none"></circle>
+                                <path
+                                    d="M5.633375276077825e-15,-92A92,92,0,0,1,90.37042706703936,17.239080941886687L58.937235043721316,11.242878875143493A60,60,0,0,0,3.67394039744206e-15,-60Z"
+                                    fill="#44C48E"></path>
+                                <text x="0" y="0">
+                                    <tspan x="0" y="-8" text-anchor="middle" alignment-baseline="middle"
+                                        font-weight="bold" font-size="24">7/25</tspan>
+                                    <tspan x="0" y="14.5" font-size="13" text-anchor="middle"
+                                        alignment-baseline="middle">
+                                        searches
+                                    </tspan>
+                                </text>
+                            </svg>
+                        </div>
+
+                        <span>You have&nbsp; <strong>18</strong>&nbsp;more searches left</span>
+                        <button><svg width="13" height="13" viewBox="0 0 13 13" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M5.6665 12.3334V7.33341H0.666504V5.66675H5.6665V0.666748H7.33317V5.66675H12.3332V7.33341H7.33317V12.3334H5.6665Z"
+                                    fill="currentColor" />
+                            </svg>
+                            SEARCH</button>
+                    </div>
+                </div>
+                <div class="img_show_area" id="imgDisplay">
+                    <h4>Old Trafford</h4>
+                    <img src="./imgs/location1.png" alt="">
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>

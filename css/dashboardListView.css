@@ -1,0 +1,63 @@
+section {
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px 20px 4px 4px;
+  border-radius: 5px;
+  background: #ffffff;
+  margin-right: 5px;
+}
+section .desc {
+  width: 260px;
+}
+section img.thumbnail {
+  width: 72px;
+  height: 72px;
+  border-radius: 4px;
+  border: 1px solid #e2e3e4;
+}
+section p:first-child {
+  color: #000;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 600;
+}
+section p:last-child {
+  margin-top: 8px;
+  font-size: 13px;
+  line-height: 14px;
+}
+section #option {
+  width: 44px;
+  height: 44px;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+section .controlRenameDel {
+  display: none;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+  width: 157px;
+  height: 72px;
+  position: absolute;
+  top: 60px;
+  right: 20px;
+  z-index: 10;
+  padding: 6px 0;
+}
+section .controlRenameDel button {
+  padding: 8px 17px 8px 12px;
+  font-family: inherit;
+  font-size: 13px;
+  font-weight: normal;
+  width: 100%;
+  display: flex;
+}
+section .controlRenameDel button svg {
+  margin-right: 10px;
+}

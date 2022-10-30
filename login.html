@@ -1,93 +1,222 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>登录</title>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>GEOSPATIAL</title>
+    <link rel="shortcut icon" href="./imgs/logo.svg" />
     <!-- 新 Bootstrap5 核心 CSS 文件 -->
-    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/5.1.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./css/login.css">
-</head>
+    <!-- <script href="https://code.jquery.com/jquery-3.6.1.min.js"></script> -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.staticfile.org/twitter-bootstrap/5.1.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./css/login.css" />
+  </head>
 
-<body>
+  <body>
     <div id="root">
-        <div class="left">
-            <!-- 轮播 -->
-            <div id="demo" class="carousel slide" data-bs-ride="carousel">
-                <!-- 指示符 -->
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
-                    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
-                    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
-                </div>
+      <!-- 左边轮播图 -->
+      <div class="left">
+        <!-- 轮播 -->
+        <div
+          id="demo"
+          class="carousel slide"
+          data-bs-ride="carousel"
+          data-bs-interval="2500"
+        >
+          <!-- 指示符 -->
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#demo"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#demo"
+              data-bs-slide-to="1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#demo"
+              data-bs-slide-to="2"
+            ></button>
+          </div>
 
-                <!-- 轮播图片 -->
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <div class="login_carousel">
-                            <img class="floatImge_top" src="./imgs/carousel_topleft.svg" alt="">
-                            <img class="floatImge_left" src="./imgs/carousel_center.svg" alt="">
-                            <img class="floatImge_right" src="./imgs/carousel_topright.svg" alt="">
-                            <img class="floatImge_bottom" src="./imgs/carousel_bottomleft.svg" alt="">
-                            <img src="./imgs/intuitive_dashboard.png" class="d-block">
-                            <div class="text">
-                                <h3>Intuitive Dashboard</h3>
-                                <p>Redefining the geospatial experience to make it easy to use for all levels of users,
-                                    including
-                                    non-technical ones.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="login_carousel">
-                            <img class="floatImge_top" src="./imgs/carousel_topleft.svg" alt="">
-                            <img class="floatImge_left" src="./imgs/carousel_center.svg" alt="">
-                            <img class="floatImge_right" src="./imgs/carousel_topright.svg" alt="">
-                            <img class="floatImge_bottom" src="./imgs/carousel_bottomleft.svg" alt="">
-                            <img src="./imgs/intuitive_dashboard.png" class="d-block">
-                            <div class="text">
-                                <h3>Intuitive Dashboard</h3>
-                                <p>Redefining the geospatial experience to make it easy to use for all levels of users,
-                                    including
-                                    non-technical ones.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="login_carousel">
-                            <img class="floatImge_top" src="./imgs/carousel_topleft.svg" alt="">
-                            <img class="floatImge_left" src="./imgs/carousel_center.svg" alt="">
-                            <img class="floatImge_right" src="./imgs/carousel_topright.svg" alt="">
-                            <img class="floatImge_bottom" src="./imgs/carousel_bottomleft.svg" alt="">
-                            <img src="./imgs/intuitive_dashboard.png" class="d-block">
-                            <div class="text">
-                                <h3>Intuitive Dashboard</h3>
-                                <p>Redefining the geospatial experience to make it easy to use for all levels of users,
-                                    including
-                                    non-technical ones.</p>
-                            </div>
-                        </div>
-                    </div>
+          <!-- 轮播图片 -->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="login_carousel">
+                <img
+                  class="floatImge_top"
+                  src="./imgs/carousel_topleft.svg"
+                  alt=""
+                />
+                <img
+                  class="floatImge_left"
+                  src="./imgs/carousel_center.svg"
+                  alt=""
+                />
+                <img
+                  class="floatImge_right"
+                  src="./imgs/carousel_topright.svg"
+                  alt=""
+                />
+                <img
+                  class="floatImge_bottom"
+                  src="./imgs/carousel_bottomleft.svg"
+                  alt=""
+                />
+                <img src="./imgs/intuitive_dashboard.png" class="d-block" />
+                <div class="text">
+                  <h3>Intuitive Dashboard</h3>
+                  <p>
+                    Redefining the geospatial experience to make it easy to use
+                    for all levels of users, including non-technical ones.
+                  </p>
                 </div>
-
-                <!-- 左右切换按钮 -->
-                <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon"></span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
-                    <span class="carousel-control-next-icon"></span>
-                </button>
+              </div>
             </div>
+            <div class="carousel-item">
+              <div class="login_carousel">
+                <img
+                  class="floatImge_top"
+                  src="./imgs/carousel_topleft.svg"
+                  alt=""
+                />
+                <img
+                  class="floatImge_left"
+                  src="./imgs/carousel_center.svg"
+                  alt=""
+                />
+                <img
+                  class="floatImge_right"
+                  src="./imgs/carousel_topright.svg"
+                  alt=""
+                />
+                <img
+                  class="floatImge_bottom"
+                  src="./imgs/carousel_bottomleft.svg"
+                  alt=""
+                />
+                <img src="./imgs/intuitive_dashboard.png" class="d-block" />
+                <div class="text">
+                  <h3>Intuitive Dashboard</h3>
+                  <p>
+                    Redefining the geospatial experience to make it easy to use
+                    for all levels of users, including non-technical ones.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="login_carousel">
+                <img
+                  class="floatImge_top"
+                  src="./imgs/carousel_topleft.svg"
+                  alt=""
+                />
+                <img
+                  class="floatImge_left"
+                  src="./imgs/carousel_center.svg"
+                  alt=""
+                />
+                <img
+                  class="floatImge_right"
+                  src="./imgs/carousel_topright.svg"
+                  alt=""
+                />
+                <img
+                  class="floatImge_bottom"
+                  src="./imgs/carousel_bottomleft.svg"
+                  alt=""
+                />
+                <img src="./imgs/intuitive_dashboard.png" class="d-block" />
+
+                <div class="text">
+                  <h3>Intuitive Dashboard</h3>
+                  <p>
+                    Redefining the geospatial experience to make it easy to use
+                    for all levels of users, including non-technical ones.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 左右切换按钮 -->
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#demo"
+            data-bs-slide="prev"
+          ></button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#demo"
+            data-bs-slide="next"
+          ></button>
+        </div>
+      </div>
+      <!-- 右边登录注册 -->
+      <div class="right">
+        <!-- 头部 -->
+        <div class="logo">
+          <img src="./imgs/logo.svg" alt="logo" />
+          <p>GEOSPATIAL</p>
+        </div>
+        <!-- 登录 -->
+        <div class="login">
+          <p class="login_p">Login</p>
+          <p class="worong_or_true">Wrong username or password</p>
+          <label>Username</label>
+          <input type="text" name="username" class="username" />
+          <label>Password</label>
+          <input type="password" name="password" class="password" />
+          <!-- Remember -->
+          <!-- <div class="remb"> -->
+          <label class="rember">
+            <div class="change_">
+              <input type="checkbox" name="check" class="check" />
+            </div>
+            <div class="lit_rem">Remember me</div>
+          </label>
+
+          <!-- </div> -->
+          <!-- button log in -->
+
+          <button type="submit" class="log_in" disabled>LOG IN</button>
         </div>
 
-        <!--  popper.min.js 用于弹窗、提示、下拉菜单 -->
-        <script src="https://cdn.staticfile.org/popper.js/2.9.3/umd/popper.min.js"></script>
+        <!-- regiter注册跳转 -->
+        <div class="btn_jump">
+          <a class="regiter_a" href="/register.html">
+            Register
+          </a>
+          <!-- forgot password? -->
+          <span>|</span>
+          <a class="forgot" href="/login_forget.html">
+            Forgot passoword?
+          </a>
+        </div>
 
-        <!-- 最新的 Bootstrap5 核心 JavaScript 文件 -->
-        <script src="https://cdn.staticfile.org/twitter-bootstrap/5.1.1/js/bootstrap.min.js"></script>
+        <!-- 底部 -->
+        <div class="right_footer">
+          © Geospatial Corporation. All rights reserved.
+        </div>
+      </div>
     </div>
 
-</body>
+    <!-- <script src="./js/bootstrap-3.4.1-dist/bootstrap.js"></script> -->
+    <!--  popper.min.js 用于弹窗、提示、下拉菜单 -->
+    <script src="https://cdn.staticfile.org/popper.js/2.9.3/umd/popper.min.js"></script>
 
+    <!-- 最新的 Bootstrap5 核心 JavaScript 文件 -->
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/5.1.1/js/bootstrap.min.js"></script>
+  </body>
+  <script type="module" src="./js/login.js"></script>
 </html>

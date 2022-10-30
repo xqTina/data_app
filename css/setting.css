@@ -4,6 +4,8 @@
   box-sizing: border-box;
 }
 li {
+  width: 100%;
+  height: 55px;
   list-style: none;
 }
 input {
@@ -23,27 +25,33 @@ body,
 .root {
   width: 100%;
   height: 100%;
+  min-height: 100%;
   background: #f5f7fa;
 }
 .root {
   display: flex;
-  min-width: 100%;
-  min-height: 100%;
+  padding-top: 16px;
+  padding-right: 16px;
 }
 .menu_bar ul {
   padding-top: 60px;
   display: flex;
   flex-direction: column;
-  margin: 16px 0;
   width: 64px;
-  min-height: 650px;
+  height: 100%;
+  min-height: 720px;
   background-color: #333333;
   border-radius: 0 8px 8px 0;
   z-index: 10;
   align-items: center;
 }
 .menu_bar ul li {
+  height: 55px;
+  width: 100%;
   margin-top: 65px;
+}
+.menu_bar ul li:nth-child(2) {
+  margin-top: 150px;
 }
 .menu_bar ul li:last-child {
   margin-top: auto;
@@ -61,7 +69,7 @@ body,
   min-height: 100%;
   display: flex;
   flex-direction: column;
-  margin-top: 64px;
+  padding-top: 64px;
   align-items: flex-start;
   margin-left: 200px;
 }
@@ -89,20 +97,37 @@ body,
   width: 480px;
 }
 .main_content .change_box {
+  height: 284px;
   width: 400px;
   margin-left: 35px;
-  height: 150px;
+}
+.main_content .change_box p {
+  height: 15px;
+  font-size: 13px;
+}
+.main_content .change_box .desc {
+  font-size: 12px;
+  line-height: 13px;
+  font-weight: 500;
+  color: #666666;
+}
+.main_content .change_box input {
+  width: 100%;
+  margin-bottom: 15px;
 }
 .main_content .change_box button {
+  margin-top: 10px;
   width: 336px;
   padding: 0 24px;
+  opacity: 0.7;
 }
 .main_content button {
+  opacity: 0.7;
   height: 40px;
   padding: 0 24px;
   color: #fff;
   background-color: #4472c4;
-  border-radius: 17px;
+  border-radius: 6px;
   text-transform: uppercase;
   font-weight: bold;
 }
@@ -128,4 +153,45 @@ body,
 .main_content form > div button[type="reset"] {
   color: #00001f;
   background-color: #f0f0f0;
+}
+section {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  height: 230px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 12px;
+  display: none;
+  z-index: 99;
+}
+section .title {
+  display: flex;
+  justify-content: space-between;
+}
+section .title span {
+  cursor: pointer;
+}
+section input {
+  margin-top: 20px;
+  width: 300px;
+}
+section .btn {
+  display: flex;
+  justify-content: space-around;
+}
+section button {
+  margin-top: 20px;
+  width: 120px;
+  height: 30px;
+  font-weight: bold;
+  color: white;
+  background: #4472c4;
+}
+section #desc {
+  width: 100%;
+  margin-top: 4px;
+  height: 20px;
 }

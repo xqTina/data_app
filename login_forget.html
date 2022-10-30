@@ -10,7 +10,7 @@
       rel="stylesheet"
       href="https://cdn.staticfile.org/twitter-bootstrap/5.1.1/css/bootstrap.min.css"
     />
-    <link rel="stylesheet" href="./css/register.css" />
+    <link rel="stylesheet" href="./css/login_forget.css" />
   </head>
 
   <body>
@@ -168,77 +168,52 @@
           <p>GEOSPATIAL</p>
         </div>
         <!-- 登录 -->
-        <div class="register">
-          <p class="register_p">Register</p>
-
-          <p class="worong_or_true">Wrong username or password</p>
-          <label>Username</label>
-          <input
-            type="text"
-            name="username"
-            class="username"
-            required
-            date-value="0"
-          />
-          <div class="fullname">
-            <div>
-              <label>FirstName</label>
-              <input
-                type="text"
-                name="firstName"
-                class="firstName"
-                required
-                date-value="0"
-                size="12"
-              />
-            </div>
-            <div>
-              <label>LastName</label>
-              <input
-                type="text"
-                name="lastName"
-                class="lastName"
-                required
-                date-value="0"
-                size="12"
-              />
-            </div>
+        <div class="fogot">
+          <a href="/login.html" class="forgot-a">
+            <svg
+              width="8"
+              height="12"
+              viewBox="0 0 8 12"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M6 12L0 6L6 0L7.4 1.4L2.8 6L7.4 10.6L6 12Z"
+                fill="currentColor"
+              ></path>
+            </svg>
+            <span class="lit_forgot">Forgot Password</span>
+          </a>
+          <div class="fogot_prompt">
+            Please enter your email address. You will receive a link to create a
+            new password via email.
           </div>
-
-          <label>Password</label>
-          <input
-            type="password"
-            name="password"
-            class="password"
-            required
-            date-value="0"
-          />
-          <label>Email</label>
-          <input
-            type="email"
-            name="email"
-            class="email_"
-            required
-            date-value="0"
-          />
-
-          <!-- Remember -->
-          <label class="rember">
-            <div class="change_">
-              <input type="checkbox" name="check" class="check" />
-            </div>
-            <div class="lit_rem">同意"GEOSPATIAL用户使用协议"</div>
-          </label>
-
-          <!-- </div> -->
-          <!-- button log in -->
-          <button type="submit" class="reg_in" disabled>Register IN</button>
+          <div class="email">
+            <div class="lit_email">Email Address</div>
+            <input
+              type="email"
+              autocomplete="email"
+              name="email"
+              class="input_email"
+            />
+          </div>
+          <button class="forgot_reset" disabled type="submit">
+            RESET PASSWORD
+          </button>
+          <!-- 底部 -->
+          <div class="right_footer">
+            © Geospatial Corporation. All rights reserved.
+          </div>
         </div>
 
+        <!-- button reset password
+        <button class="forgot_reset" disabled type="submit">
+          RESET PASSWORD
+        </button> -->
         <!-- 底部 -->
-        <div class="right_footer">
+        <!-- <div class="right_footer">
           © Geospatial Corporation. All rights reserved.
-        </div>
+        </div> -->
       </div>
     </div>
 
@@ -248,5 +223,5 @@
     <!-- 最新的 Bootstrap5 核心 JavaScript 文件 -->
     <script src="https://cdn.staticfile.org/twitter-bootstrap/5.1.1/js/bootstrap.min.js"></script>
   </body>
-  <script type="module" src="./js/register.js"></script>
+  <script type="module" src="./js/fogot.js"></script>
 </html>

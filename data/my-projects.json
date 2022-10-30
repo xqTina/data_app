@@ -3,10 +3,9 @@
     "id": 1,
     "name": "Old Trafford",
     "description": "This is a new project lorem ipsum dolor amet conseqtetur adispicing elit magna.",
-    "createdAt": "2022-10-04T12:53:54Z",
+    "createdAt": "Sep 4, 2022 08:53:54 am",
     "lastUpdatedAt": "2022-10-06T14:25:18Z",
-    "locationImage": "",
-    "imageThubmbnail": "",
+    "locationImage": "./imgs/location1.png",
     "totalDevicesNumber": 3,
     "notWorkingDevicesNumber": 1,
     "devices": [
@@ -20,10 +19,12 @@
         "type": "wind",
         "model": "",
         "interval": "1h",
-        "data": [{
-          "date": "2022-10-04T12:53:54Z",
-          "detail": {}
-        }]
+        "data": [
+          {
+            "date": "2022-10-04T12:53:54Z",
+            "detail": {}
+          }
+        ]
       },
       {
         "id": 2,
@@ -35,10 +36,12 @@
         "type": "wind",
         "model": "",
         "interval": "1h",
-        "data": [{
-          "date": "2022-10-04T12:53:54Z",
-          "detail": {}
-        }]
+        "data": [
+          {
+            "date": "2022-10-04T12:53:54Z",
+            "detail": {}
+          }
+        ]
       },
       {
         "id": 3,
@@ -50,19 +53,22 @@
         "type": "wind",
         "model": "",
         "interval": "1h",
-        "data": [{
-          "date": "2022-10-04T12:53:54Z",
-          "detail": {}
-        }]
+        "data": [
+          {
+            "date": "2022-10-04T12:53:54Z",
+            "detail": {}
+          }
+        ]
       }
     ]
-  },{
+  },
+  {
     "id": 2,
-    "name": "Old Trafford",
+    "name": "Upper Manhattan",
     "description": "This is a new project lorem ipsum dolor amet conseqtetur adispicing elit magna.",
-    "createdAt": "2022-10-04T12:53:54Z",
+    "createdAt": "Sep 4, 2022 08:53:54 am",
     "lastUpdatedAt": "2022-10-06T14:25:18Z",
-    "locationImage": "",
+    "locationImage": "./imgs/detailed_map_placeholder.png",
     "totalDevicesNumber": 3,
     "notWorkingDevicesNumber": 1,
     "devices": [
@@ -76,10 +82,12 @@
         "type": "wind",
         "model": "",
         "interval": "1h",
-        "data": [{
-          "date": "2022-10-04T12:53:54Z",
-          "detail": {}
-        }]
+        "data": [
+          {
+            "date": "2022-10-04T12:53:54Z",
+            "detail": {}
+          }
+        ]
       },
       {
         "id": 2,
@@ -91,10 +99,12 @@
         "type": "wind",
         "model": "",
         "interval": "1h",
-        "data": [{
-          "date": "2022-10-04T12:53:54Z",
-          "detail": {}
-        }]
+        "data": [
+          {
+            "date": "2022-10-04T12:53:54Z",
+            "detail": {}
+          }
+        ]
       },
       {
         "id": 3,
@@ -106,19 +116,22 @@
         "type": "wind",
         "model": "",
         "interval": "1h",
-        "data": [{
-          "date": "2022-10-04T12:53:54Z",
-          "detail": {}
-        }]
+        "data": [
+          {
+            "date": "2022-10-04T12:53:54Z",
+            "detail": {}
+          }
+        ]
       }
     ]
-  },{
+  },
+  {
     "id": 3,
     "name": "Old Trafford3",
     "description": "This is a new project lorem ipsum dolor amet conseqtetur adispicing elit magna.",
     "createdAt": "2022-10-04T12:53:54Z",
     "lastUpdatedAt": "2022-10-06T14:25:18Z",
-    "locationImage": "",
+    "locationImage": "./imgs/location2.png",
     "totalDevicesNumber": 4,
     "notWorkingDevicesNumber": 0,
     "devices": [
@@ -132,10 +145,12 @@
         "type": "wind",
         "model": "",
         "interval": "1h",
-        "data": [{
-          "date": "2022-10-04T12:53:54Z",
-          "detail": {}
-        }]
+        "data": [
+          {
+            "date": "2022-10-04T12:53:54Z",
+            "detail": {}
+          }
+        ]
       },
       {
         "id": 2,
@@ -147,10 +162,12 @@
         "type": "wind",
         "model": "",
         "interval": "1h",
-        "data": [{
-          "date": "2022-10-04T12:53:54Z",
-          "detail": {}
-        }]
+        "data": [
+          {
+            "date": "2022-10-04T12:53:54Z",
+            "detail": {}
+          }
+        ]
       },
       {
         "id": 3,
@@ -162,19 +179,22 @@
         "type": "wind",
         "model": "",
         "interval": "1h",
-        "data": [{
-          "date": "2022-10-04T12:53:54Z",
-          "detail": {}
-        }]
+        "data": [
+          {
+            "date": "2022-10-04T12:53:54Z",
+            "detail": {}
+          }
+        ]
       }
     ]
-  },{
+  },
+  {
     "id": 4,
     "name": "Old Trafford4",
     "description": "This is a new project lorem ipsum dolor amet conseqtetur adispicing elit magna.",
     "createdAt": "2022-10-04T12:53:54Z",
     "lastUpdatedAt": "2022-10-06T14:25:18Z",
-    "locationImage": "",
+    "locationImage": "./imgs/location2.png",
     "totalDevicesNumber": 5,
     "notWorkingDevicesNumber": 2,
     "devices": [
@@ -188,10 +208,12 @@
         "type": "wind",
         "model": "",
         "interval": "1h",
-        "data": [{
-          "date": "2022-10-04T12:53:54Z",
-          "detail": {}
-        }]
+        "data": [
+          {
+            "date": "2022-10-04T12:53:54Z",
+            "detail": {}
+          }
+        ]
       },
       {
         "id": 2,
@@ -203,10 +225,12 @@
         "type": "wind",
         "model": "",
         "interval": "1h",
-        "data": [{
-          "date": "2022-10-04T12:53:54Z",
-          "detail": {}
-        }]
+        "data": [
+          {
+            "date": "2022-10-04T12:53:54Z",
+            "detail": {}
+          }
+        ]
       },
       {
         "id": 3,
@@ -218,19 +242,22 @@
         "type": "wind",
         "model": "",
         "interval": "1h",
-        "data": [{
-          "date": "2022-10-04T12:53:54Z",
-          "detail": {}
-        }]
+        "data": [
+          {
+            "date": "2022-10-04T12:53:54Z",
+            "detail": {}
+          }
+        ]
       }
     ]
-  },{
+  },
+  {
     "id": 5,
     "name": "Old Trafford",
     "description": "This is a new project lorem ipsum dolor amet conseqtetur adispicing elit magna.",
-    "createdAt": "2022-10-04T12:53:54Z",
+    "createdAt": "Jun 11, 2022 08:53:54 am",
     "lastUpdatedAt": "2022-10-06T14:25:18Z",
-    "locationImage": "",
+    "locationImage": "./imgs/location3.png",
     "totalDevicesNumber": 6,
     "notWorkingDevicesNumber": 1,
     "devices": [
@@ -241,10 +268,12 @@
         "type": "wind",
         "model": "",
         "interval": "1h",
-        "data": [{
-          "date": "2022-10-04T12:53:54Z",
-          "detail": {}
-        }]
+        "data": [
+          {
+            "date": "2022-10-04T12:53:54Z",
+            "detail": {}
+          }
+        ]
       },
       {
         "id": 2,
@@ -253,10 +282,12 @@
         "type": "wind",
         "model": "",
         "interval": "1h",
-        "data": [{
-          "date": "2022-10-04T12:53:54Z",
-          "detail": {}
-        }]
+        "data": [
+          {
+            "date": "2022-10-04T12:53:54Z",
+            "detail": {}
+          }
+        ]
       },
       {
         "id": 3,
@@ -265,19 +296,22 @@
         "type": "wind",
         "model": "",
         "interval": "1h",
-        "data": [{
-          "date": "2022-10-04T12:53:54Z",
-          "detail": {}
-        }]
+        "data": [
+          {
+            "date": "2022-10-04T12:53:54Z",
+            "detail": {}
+          }
+        ]
       }
     ]
-  },{
+  },
+  {
     "id": 6,
     "name": "Old Trafford",
     "description": "This is a new project lorem ipsum dolor amet conseqtetur adispicing elit magna.",
     "createdAt": "2022-10-04T12:53:54Z",
     "lastUpdatedAt": "2022-10-06T14:25:18Z",
-    "locationImage": "",
+    "locationImage": "./imgs/detailed_map_placeholder.png",
     "totalDevicesNumber": 3,
     "notWorkingDevicesNumber": 1,
     "devices": [
@@ -288,10 +322,12 @@
         "type": "wind",
         "model": "",
         "interval": "1h",
-        "data": [{
-          "date": "2022-10-04T12:53:54Z",
-          "detail": {}
-        }]
+        "data": [
+          {
+            "date": "2022-10-04T12:53:54Z",
+            "detail": {}
+          }
+        ]
       },
       {
         "id": 2,
@@ -300,10 +336,12 @@
         "type": "wind",
         "model": "",
         "interval": "1h",
-        "data": [{
-          "date": "2022-10-04T12:53:54Z",
-          "detail": {}
-        }]
+        "data": [
+          {
+            "date": "2022-10-04T12:53:54Z",
+            "detail": {}
+          }
+        ]
       },
       {
         "id": 3,
@@ -312,19 +350,22 @@
         "type": "wind",
         "model": "",
         "interval": "1h",
-        "data": [{
-          "date": "2022-10-04T12:53:54Z",
-          "detail": {}
-        }]
+        "data": [
+          {
+            "date": "2022-10-04T12:53:54Z",
+            "detail": {}
+          }
+        ]
       }
     ]
-  },{
+  },
+  {
     "id": 7,
     "name": "Old Trafford7",
     "description": "This is a new project lorem ipsum dolor amet conseqtetur adispicing elit magna.",
     "createdAt": "2022-10-04T12:53:54Z",
     "lastUpdatedAt": "2022-10-06T14:25:18Z",
-    "locationImage": "",
+    "locationImage": "./imgs/location1.png",
     "totalDevicesNumber": 3,
     "notWorkingDevicesNumber": 1,
     "devices": [
@@ -335,10 +376,12 @@
         "type": "wind",
         "model": "",
         "interval": "1h",
-        "data": [{
-          "date": "2022-10-04T12:53:54Z",
-          "detail": {}
-        }]
+        "data": [
+          {
+            "date": "2022-10-04T12:53:54Z",
+            "detail": {}
+          }
+        ]
       },
       {
         "id": 2,
@@ -347,10 +390,12 @@
         "type": "wind",
         "model": "",
         "interval": "1h",
-        "data": [{
-          "date": "2022-10-04T12:53:54Z",
-          "detail": {}
-        }]
+        "data": [
+          {
+            "date": "2022-10-04T12:53:54Z",
+            "detail": {}
+          }
+        ]
       },
       {
         "id": 3,
@@ -359,19 +404,22 @@
         "type": "wind",
         "model": "",
         "interval": "1h",
-        "data": [{
-          "date": "2022-10-04T12:53:54Z",
-          "detail": {}
-        }]
+        "data": [
+          {
+            "date": "2022-10-04T12:53:54Z",
+            "detail": {}
+          }
+        ]
       }
     ]
-  },{
+  },
+  {
     "id": 8,
     "name": "Old Trafford8",
     "description": "This is a new project lorem ipsum dolor amet conseqtetur adispicing elit magna.",
     "createdAt": "2022-10-04T12:53:54Z",
     "lastUpdatedAt": "2022-10-06T14:25:18Z",
-    "locationImage": "",
+    "locationImage": "./imgs/detailed_map_placeholder.png",
     "totalDevicesNumber": 3,
     "notWorkingDevicesNumber": 1,
     "devices": [
@@ -382,10 +430,12 @@
         "type": "wind",
         "model": "",
         "interval": "1h",
-        "data": [{
-          "date": "2022-10-04T12:53:54Z",
-          "detail": {}
-        }]
+        "data": [
+          {
+            "date": "2022-10-04T12:53:54Z",
+            "detail": {}
+          }
+        ]
       },
       {
         "id": 2,
@@ -394,10 +444,12 @@
         "type": "wind",
         "model": "",
         "interval": "1h",
-        "data": [{
-          "date": "2022-10-04T12:53:54Z",
-          "detail": {}
-        }]
+        "data": [
+          {
+            "date": "2022-10-04T12:53:54Z",
+            "detail": {}
+          }
+        ]
       },
       {
         "id": 3,
@@ -406,19 +458,22 @@
         "type": "wind",
         "model": "",
         "interval": "1h",
-        "data": [{
-          "date": "2022-10-04T12:53:54Z",
-          "detail": {}
-        }]
+        "data": [
+          {
+            "date": "2022-10-04T12:53:54Z",
+            "detail": {}
+          }
+        ]
       }
     ]
-  },{
+  },
+  {
     "id": 9,
     "name": "Old Trafford",
     "description": "This is a new project lorem ipsum dolor amet conseqtetur adispicing elit magna.",
     "createdAt": "2022-10-04T12:53:54Z",
     "lastUpdatedAt": "2022-10-06T14:25:18Z",
-    "locationImage": "",
+    "locationImage": "./imgs/location3.png",
     "totalDevicesNumber": 6,
     "notWorkingDevicesNumber": 1,
     "devices": [
@@ -429,10 +484,12 @@
         "type": "wind",
         "model": "",
         "interval": "1h",
-        "data": [{
-          "date": "2022-10-04T12:53:54Z",
-          "detail": {}
-        }]
+        "data": [
+          {
+            "date": "2022-10-04T12:53:54Z",
+            "detail": {}
+          }
+        ]
       },
       {
         "id": 2,
@@ -441,10 +498,12 @@
         "type": "wind",
         "model": "",
         "interval": "1h",
-        "data": [{
-          "date": "2022-10-04T12:53:54Z",
-          "detail": {}
-        }]
+        "data": [
+          {
+            "date": "2022-10-04T12:53:54Z",
+            "detail": {}
+          }
+        ]
       },
       {
         "id": 3,
@@ -453,19 +512,22 @@
         "type": "wind",
         "model": "",
         "interval": "1h",
-        "data": [{
-          "date": "2022-10-04T12:53:54Z",
-          "detail": {}
-        }]
+        "data": [
+          {
+            "date": "2022-10-04T12:53:54Z",
+            "detail": {}
+          }
+        ]
       }
     ]
-  },{
+  },
+  {
     "id": 10,
     "name": "Old Trafford",
     "description": "This is a new project lorem ipsum dolor amet conseqtetur adispicing elit magna.",
     "createdAt": "2022-10-04T12:53:54Z",
     "lastUpdatedAt": "2022-10-06T14:25:18Z",
-    "locationImage": "",
+    "locationImage": "./imgs/location2.png",
     "totalDevicesNumber": 3,
     "notWorkingDevicesNumber": 1,
     "devices": [
@@ -476,10 +538,12 @@
         "type": "wind",
         "model": "",
         "interval": "1h",
-        "data": [{
-          "date": "2022-10-04T12:53:54Z",
-          "detail": {}
-        }]
+        "data": [
+          {
+            "date": "2022-10-04T12:53:54Z",
+            "detail": {}
+          }
+        ]
       },
       {
         "id": 2,
@@ -488,10 +552,12 @@
         "type": "wind",
         "model": "",
         "interval": "1h",
-        "data": [{
-          "date": "2022-10-04T12:53:54Z",
-          "detail": {}
-        }]
+        "data": [
+          {
+            "date": "2022-10-04T12:53:54Z",
+            "detail": {}
+          }
+        ]
       },
       {
         "id": 3,
@@ -500,19 +566,22 @@
         "type": "wind",
         "model": "",
         "interval": "1h",
-        "data": [{
-          "date": "2022-10-04T12:53:54Z",
-          "detail": {}
-        }]
+        "data": [
+          {
+            "date": "2022-10-04T12:53:54Z",
+            "detail": {}
+          }
+        ]
       }
     ]
-  },{
+  },
+  {
     "id": 11,
     "name": "Old Trafford",
     "description": "This is a new project lorem ipsum dolor amet conseqtetur adispicing elit magna.",
     "createdAt": "2022-10-04T12:53:54Z",
     "lastUpdatedAt": "2022-10-06T14:25:18Z",
-    "locationImage": "",
+    "locationImage": "./imgs/location3.png",
     "totalDevicesNumber": 3,
     "notWorkingDevicesNumber": 1,
     "devices": [
@@ -523,10 +592,12 @@
         "type": "wind",
         "model": "",
         "interval": "1h",
-        "data": [{
-          "date": "2022-10-04T12:53:54Z",
-          "detail": {}
-        }]
+        "data": [
+          {
+            "date": "2022-10-04T12:53:54Z",
+            "detail": {}
+          }
+        ]
       },
       {
         "id": 2,
@@ -535,10 +606,12 @@
         "type": "wind",
         "model": "",
         "interval": "1h",
-        "data": [{
-          "date": "2022-10-04T12:53:54Z",
-          "detail": {}
-        }]
+        "data": [
+          {
+            "date": "2022-10-04T12:53:54Z",
+            "detail": {}
+          }
+        ]
       },
       {
         "id": 3,
@@ -547,19 +620,22 @@
         "type": "wind",
         "model": "",
         "interval": "1h",
-        "data": [{
-          "date": "2022-10-04T12:53:54Z",
-          "detail": {}
-        }]
+        "data": [
+          {
+            "date": "2022-10-04T12:53:54Z",
+            "detail": {}
+          }
+        ]
       }
     ]
-  },{
+  },
+  {
     "id": 12,
     "name": "Old Trafford",
     "description": "This is a new project lorem ipsum dolor amet conseqtetur adispicing elit magna.",
     "createdAt": "2022-10-04T12:53:54Z",
     "lastUpdatedAt": "2022-10-06T14:25:18Z",
-    "locationImage": "",
+    "locationImage": "./imgs/detailed_map_placeholder.png",
     "totalDevicesNumber": 3,
     "notWorkingDevicesNumber": 1,
     "devices": [
@@ -570,10 +646,12 @@
         "type": "wind",
         "model": "",
         "interval": "1h",
-        "data": [{
-          "date": "2022-10-04T12:53:54Z",
-          "detail": {}
-        }]
+        "data": [
+          {
+            "date": "2022-10-04T12:53:54Z",
+            "detail": {}
+          }
+        ]
       },
       {
         "id": 2,
@@ -582,10 +660,12 @@
         "type": "wind",
         "model": "",
         "interval": "1h",
-        "data": [{
-          "date": "2022-10-04T12:53:54Z",
-          "detail": {}
-        }]
+        "data": [
+          {
+            "date": "2022-10-04T12:53:54Z",
+            "detail": {}
+          }
+        ]
       },
       {
         "id": 3,
@@ -594,19 +674,22 @@
         "type": "wind",
         "model": "",
         "interval": "1h",
-        "data": [{
-          "date": "2022-10-04T12:53:54Z",
-          "detail": {}
-        }]
+        "data": [
+          {
+            "date": "2022-10-04T12:53:54Z",
+            "detail": {}
+          }
+        ]
       }
     ]
-  },{
+  },
+  {
     "id": 13,
     "name": "Old Trafford",
     "description": "This is a new project lorem ipsum dolor amet conseqtetur adispicing elit magna.",
     "createdAt": "2022-10-04T12:53:54Z",
     "lastUpdatedAt": "2022-10-06T14:25:18Z",
-    "locationImage": "",
+    "locationImage": "./imgs/detailed_map_placeholder.png",
     "totalDevicesNumber": 3,
     "notWorkingDevicesNumber": 1,
     "devices": [
@@ -617,10 +700,12 @@
         "type": "wind",
         "model": "",
         "interval": "1h",
-        "data": [{
-          "date": "2022-10-04T12:53:54Z",
-          "detail": {}
-        }]
+        "data": [
+          {
+            "date": "2022-10-04T12:53:54Z",
+            "detail": {}
+          }
+        ]
       },
       {
         "id": 2,
@@ -629,10 +714,12 @@
         "type": "wind",
         "model": "",
         "interval": "1h",
-        "data": [{
-          "date": "2022-10-04T12:53:54Z",
-          "detail": {}
-        }]
+        "data": [
+          {
+            "date": "2022-10-04T12:53:54Z",
+            "detail": {}
+          }
+        ]
       },
       {
         "id": 3,
@@ -641,10 +728,12 @@
         "type": "wind",
         "model": "",
         "interval": "1h",
-        "data": [{
-          "date": "2022-10-04T12:53:54Z",
-          "detail": {}
-        }]
+        "data": [
+          {
+            "date": "2022-10-04T12:53:54Z",
+            "detail": {}
+          }
+        ]
       }
     ]
   }

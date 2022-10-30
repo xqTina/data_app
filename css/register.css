@@ -1,0 +1,321 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    user-select: none;
+
+}
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+.carousel-item {
+    height: 100%;
+}
+
+#root,
+html,
+body {
+    width: 100%;
+    height: 100%;
+    /* min-width: 100%; */
+    /* display: flex; */
+    /* font-family: Montserrat, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif; */
+}
+
+#root {
+    display: flex;
+    min-height: 100%;
+    /* min-width: 100%; */
+    width: 100%;
+    height: 700px;
+}
+
+body {
+    margin: 0;
+    font-family: Montserrat, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    color: #000000;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+}
+
+.left,
+.carousel {
+    height: 100%;
+    min-height: 100%;
+}
+
+.carousel-inner {
+    height: 100% !important;
+}
+
+.login_carousel {
+    position: relative !important;
+    height: 100%;
+    background-color: #000000;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.worong_or_true {
+    font-size: 13px !important;
+    color: #e21a37;
+    display: none;
+
+}
+
+img.d-block {
+    z-index: 1;
+    margin-top: -227px;
+    box-shadow: 50px 50px 5px rgba(0, 0, 0, 0.5);
+}
+
+.floatImge_top {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.floatImge_left {
+    position: relative;
+    left: -148px;
+    z-index: 0;
+    top: -124px;
+}
+
+.floatImge_right {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.floatImge_bottom {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.login_carousel .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 9;
+    margin-top: -10px;
+}
+
+.text h3{
+  font-size: 24px;
+}
+.login_carousel p {
+    width: 397px;
+    color: white;
+    font-size: 14px;
+}
+
+.carousel {
+    width: 640px !important;
+    /* height: 100% !important; */
+}
+
+.carousel-indicators {
+    bottom: 163px;
+    left: -17px;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.16);
+    opacity: 0.9;
+
+}
+
+.carousel-indicators [aria-current] {
+    background-color: #4472c4 !important
+}
+/* 右边 */
+.right {
+flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 84px 170px 32px
+    /* width: 300px; */
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 800;
+    /* width: 200px; */
+}
+
+.logo img {
+    margin-right: 8px;
+}
+
+.logo p {
+    /* line-height: 50px; */
+    margin-top: 10px;
+}
+
+.register {
+    margin-top: 68px;
+        width: 372px;
+        display: flex;
+        flex-direction: column;
+}
+
+.register p {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 19px;
+}
+
+.register label {
+    font-size: 12px;
+    line-height: 13px;
+    font-weight: 500;
+    color: #666666;
+    margin-bottom: 10px;
+}
+
+.register .username,
+.register .password, 
+.register .firstName,
+.register .lastName,
+.register .email_{
+    padding: 2px 0;
+    margin-bottom: 10px;
+    outline: none;
+    font-size: 14px;
+    font-weight: 500;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #cccccc;
+}
+.register .username{
+    margin-bottom: 11px;
+}
+.register .password{
+  margin-bottom: 22px;
+}
+.register .email_{
+    margin-bottom: 14px;
+}
+.fullname{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin: 5px 0;
+}
+.fullname div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.fullname label{
+    display: inline-block;
+    line-height: 35px;
+     height: 25px;
+   margin-right: 10px;
+}
+
+/* .remb{
+   display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+.rember {
+    cursor: default;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 10px;
+    align-self: flex-start;
+    margin-bottom: 10px;
+}
+
+.check {
+    margin-right: 5px;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    border-radius: 2px;
+    border: solid 1px #666666;
+}
+
+.rember span {
+    margin-left: 8px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    color: #333333;
+    cursor: pointer;
+}
+input {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0
+}
+.reg_in {
+    font-size: 12px;
+    font-weight: bold;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    color: #fff;
+    background-color: #4472c4;
+    cursor: default;
+    opacity: 0.7;
+    margin-top: 10px;
+}
+
+.forgot {
+    margin-top: 48px;
+    margin-bottom: 32px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #000000;
+    background-color: transparent;
+    text-align: center;
+    cursor: pointer;
+}
+
+.right_footer {
+    /* margin-top: auto; */
+    font-size: 8px !important;
+    font-weight: 500;
+    color: #333333;
+    /* flex: 1; */
+    margin: auto auto 0 auto;
+}
